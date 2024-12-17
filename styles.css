@@ -1,0 +1,213 @@
+    /* Fonts */
+    /* The given fonts are paid , that why used poppins */
+    *{
+        font-family: "Poppins", sans-serif;
+    }
+    
+    /* Header Styles */
+    .header {
+      
+      
+      
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 80px;
+      
+      
+      
+      
+    }
+    .logo {
+        padding: 0px 30px;
+        border-left: 1px solid rgb(224, 201, 201);
+        border-right: 1px solid rgb(224, 201, 201);
+        
+        
+    }
+    .the-image{
+        height: 72;
+        width:180px;
+    }
+   
+    
+    
+
+
+    /* Navigation Links */
+    .nav {
+        display: flex;
+        
+      
+      
+    }
+
+    .nav a {
+      text-decoration: none;
+      
+      
+      
+    }
+    .nav-anchor{
+        color: #011332;
+        margin-right: 25px;
+        font-size: 18px;
+    }
+    
+
+    .nav a:hover {
+      color: #9231ec;
+    }
+
+    /* Dropdown menu */
+    .dropdown {
+        position: relative;
+    }
+
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+      
+      
+      
+      
+      
+      
+    }
+
+    .dropdown-menu a {
+        display: block;
+        padding: 8px 15px;
+        color:black;
+      text-decoration: none;
+      font-size: 13px;
+      
+    }
+
+    .dropdown-menu a:hover {
+      background-color: #a3b8ce;
+      
+    }
+
+    /* Dropdown when hover */
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    /* Call now */
+    .call {
+        display: block;
+        border:0;
+        background-color: white;
+
+    }
+    .call a {
+        text-decoration: none;
+    }
+
+    .call-now {
+        font-size: 18px;
+        color: #011332;
+        margin-bottom: 0;
+      
+    }
+
+    .phone {
+        color: #B8143D;
+        font-weight: 700;
+        font-size: 25px;
+        margin-top: 0;
+      
+    }
+ /* Main styles */
+ /* You have rights we protect them part styles */
+ .your-rights {
+    background-color: #F5F2F3;
+    margin-left: 30px;
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+    padding-right: 0;
+    
+ }
+ .social-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    
+    letter-spacing: 10px;
+    margin-bottom: 250px;
+}
+.social-icons{
+    display: block;
+}
+.social-border {
+    border: 1px solid rgba(184, 20, 61, 0.15);
+    border-radius: 8px;
+    padding:0px 3px;
+    
+}
+
+.south-corolina {
+    color: rgb(188, 20, 62);
+    font-size: 25px;
+    font-weight: 550;
+    margin-bottom: 0;
+
+}
+.have-rights {
+    color: #000000;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    
+}
+.protect{
+    color: #B8143D ;
+}
+.firm-description{
+    color: #000000;
+    font-size: 18px;
+    margin-top: 0;
+    max-width: 500px;
+}
+.free-consultation{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.number{
+    color: #FFFFFF;
+    
+    font-weight: 600;
+    font-size: 27px;
+
+    
+}
+.colsultation{
+    background-color: #B8143D;
+    padding: 10px;
+    width: 350px;
+    
+}
+.two-pic{
+    padding-right: 0;
+    margin-right: 0;
+    display: flex;
+}
+.flag{
+    padding-top: 350px;
+    
+    
+    
+}
+.social-sidebar{
+    
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.man-pic{
+    max-width: 200px;
+}
