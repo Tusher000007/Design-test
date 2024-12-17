@@ -1,53 +1,36 @@
     /* Fonts */
-    /* The given fonts are paid , that why used poppins */
+    /* The given fonts are paid , that why used font poppins */
     *{
         font-family: "Poppins", sans-serif;
     }
     
     /* Header Styles */
     .header {
-      
-      
-      
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 0px 80px;
-      
-      
-      
-      
     }
+
     .logo {
         padding: 0px 30px;
         border-left: 1px solid rgb(224, 201, 201);
         border-right: 1px solid rgb(224, 201, 201);
-        
-        
     }
     .the-image{
         height: 72;
         width:180px;
     }
-   
-    
-    
 
-
-    /* Navigation Links */
+/* Navigation Links */
     .nav {
         display: flex;
-        
-      
-      
     }
 
     .nav a {
       text-decoration: none;
-      
-      
-      
     }
+
     .nav-anchor{
         color: #011332;
         margin-right: 25px;
@@ -67,12 +50,6 @@
     .dropdown-menu {
         display: none;
         position: absolute;
-      
-      
-      
-      
-      
-      
     }
 
     .dropdown-menu a {
@@ -81,12 +58,10 @@
         color:black;
       text-decoration: none;
       font-size: 13px;
-      
     }
 
     .dropdown-menu a:hover {
       background-color: #a3b8ce;
-      
     }
 
     /* Dropdown when hover */
@@ -99,8 +74,8 @@
         display: block;
         border:0;
         background-color: white;
-
     }
+
     .call a {
         text-decoration: none;
     }
@@ -109,7 +84,6 @@
         font-size: 18px;
         color: #011332;
         margin-bottom: 0;
-      
     }
 
     .phone {
@@ -117,8 +91,8 @@
         font-weight: 700;
         font-size: 25px;
         margin-top: 0;
-      
     }
+
  /* Main styles */
  /* You have rights we protect them part styles */
  .your-rights {
@@ -130,12 +104,13 @@
     padding-right: 0;
     
  }
+
  .social-text {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     
     letter-spacing: 10px;
-    margin-bottom: 250px;
+    margin-bottom: 300px;
 }
 .social-icons{
     display: block;
@@ -161,37 +136,41 @@
     margin-top: 0;
     margin-bottom: 0;
     
-    
 }
+
 .protect{
     color: #B8143D ;
 }
+
 .firm-description{
     color: #000000;
     font-size: 18px;
     margin-top: 0;
     max-width: 500px;
 }
+
 .free-consultation{
     color: #FFFFFF;
     font-size: 15px;
     font-weight: 400;
+    
 
 }
+
 .number{
     color: #FFFFFF;
     
     font-weight: 600;
     font-size: 27px;
-
-    
 }
+
 .colsultation{
     background-color: #B8143D;
     padding: 10px;
     width: 350px;
-    
+    margin-top: 50px;
 }
+
 .two-pic{
     padding-right: 0;
     margin-right: 0;
@@ -199,9 +178,6 @@
 }
 .flag{
     padding-top: 350px;
-    
-    
-    
 }
 .social-sidebar{
     
@@ -211,3 +187,205 @@
 .man-pic{
     max-width: 200px;
 }
+/* 7 Logos */
+.seven-logos{
+    padding: 0px 10px;
+    display: flex;
+    margin-top: 40px;
+    gap: 15px;
+}
+
+.image-div{
+    
+    border: 0.9px solid rgba(0, 0, 0, 0.15);
+    border-radius: 7.17px;
+    width: 230px;
+    height: 133px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*  <!-- SOUTH CAROLINA CRIMINAL DEFENsE  & Personal Injury LAWYER section styles --> */
+.criminal-defense-details{
+    background: rgb(245, 242, 243);
+    padding: 100px 80px;
+    display: flex;
+    gap: 100px;
+    margin-top: 40px;
+    
+}
+.south-carolina-heading{
+    font-size: 40px;
+    color: #BD163E;
+}
+.black-color{
+    color: #000000;
+}
+.blue-text{
+    color: Blue;
+    font-size: 20px;
+    font-weight: 550;
+    border-left: 2.64px solid Blue;
+    padding-left: 15px;
+}
+.para-details{
+    color: rgb(0, 0, 0);
+}
+.building-pic{
+    height: 615px;
+}
+.tik-mark{
+    height: 615px;
+    position: absolute;
+    left: 815px;
+    opacity: 0.3;
+}
+
+/* <!-- Criminal Defense practice areas Styles--> */
+.practice-area{
+    margin: 50px 80px;
+    display: flex;
+    gap: 170px;
+
+}
+.defense-headline{
+    font-size: 40px;
+    color: rgb(188, 20, 62);
+    margin-top: 0;
+
+}
+.practice-area span{
+    color: rgb(0, 0, 0);
+}
+.defense-para{
+    font-size:15px ;
+    max-width: 600px;
+    margin-top: 40px;
+
+}
+
+/* Crimes */
+.all-images{
+    display: flex;
+    gap: 10px;
+}
+.crime-card{
+    
+    position: relative;
+    overflow: hidden;
+  border-radius: 10px;
+  
+}
+.crime-card img {
+     /* Fixed height for uniformity */
+     /* Maintain image aspect ratio */
+    
+  }
+
+  .crime-overlay {
+    position: absolute;
+    bottom: 0; /* Stick to the bottom */
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    color: #fff;
+    
+    padding: 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+  }
+ .image-margin{
+    margin-top: 30px
+ }
+
+/* Get a FREE Consultation Now  */
+.free-consultation-m{
+    background-color: rgb(1, 37, 100);
+    display: flex;
+    gap: 100px;
+    margin: 100px;
+    padding: 30px 50px;
+    z-index: 10;
+    position: relative;
+    
+}
+.free-consultation-heading{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-bottom: 0;
+
+}
+.red-color-text{
+    color: rgb(184, 20, 61);
+}
+.free-consultation-para{
+    font-size: 20px;
+    margin-top: 0px;
+    color: white;
+
+}
+  
+.free-consultation-number{
+    color: rgb(184, 20, 61);
+    font-size: 50px;
+    margin-top: 0;
+
+
+}
+.free-consultation-para-number{
+    padding-top: 80px;
+
+}
+/* Why choose the woods law firm */
+
+.woods-law-firm{
+    background-color: rgb(231, 235, 244);
+    padding-top: 200px;
+    position: relative;
+    top:-240px;
+    
+    
+    
+}
+
+.why-choose{
+    margin: 50px 185px;
+
+}
+.why-choose-heading{
+    font-size: 40px;
+    text-align: center;
+}
+.our-attorneys{
+    text-align: center;
+}
+.question-answer{
+    display: flex;
+    margin: 50px 100px;
+    gap: 90px;
+}
+.questions{
+    color: rgb(26, 26, 26);
+    font-size: 25px;
+    
+}
+.answers{
+    font-size: 15px;
+}
+.answers p{
+    max-width: 500px;
+}
+.second-question{
+    margin-top: 105px;
+    margin-bottom: 180px;
+}
+
+  
+
+    
+    
+    
+    
+    
+
