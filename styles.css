@@ -198,7 +198,7 @@
     justify-content: center;
     align-items: center;
 }
-/*  <!-- SOUTH CAROLINA CRIMINAL DEFENsE  & Personal Injury LAWYER section styles --> */
+  /* SOUTH CAROLINA CRIMINAL DEFENsE  & Personal Injury LAWYER section styles */
 .criminal-defense-details{
     background: rgb(245, 242, 243);
     padding: 100px 80px;
@@ -232,7 +232,7 @@
     left: 815px;
     opacity: 0.3;
 }
-/* <!-- Criminal Defense practice areas Styles--> */
+/*  Criminal Defense practice areas Styles */
 .practice-area{
     margin: 50px 80px;
     display: flex;
@@ -270,10 +270,10 @@
 
   .crime-overlay {
     position: absolute;
-    bottom: 0; /* Stick to the bottom */
+    bottom: 0;
     left: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    background: rgba(0, 0, 0, 0.6);
     color: #fff;
     padding: 40px;
     font-size: 1.2rem;
@@ -746,7 +746,7 @@
         height: 100px;
         
     }
-    /*  <!-- SOUTH CAROLINA CRIMINAL DEFENsE  & Personal Injury LAWYER section styles --> */
+    /* SOUTH CAROLINA CRIMINAL DEFENsE  & Personal Injury LAWYER section styles */
     .criminal-defense-details{
         
         padding: 40px 20px;
@@ -764,7 +764,7 @@
     .tik-mark{
         visibility: hidden;
     }
-    /* <!-- Criminal Defense practice areas Styles--> */
+    /* Criminal Defense practice areas Styles */
     .practice-area{
         margin: 50px 40px;
         display: block;
@@ -841,9 +841,7 @@
         font-size: 25px;
     }
     .btn-view-all{
-        
         font-size: 15px;
-        
         padding: 5px 10px;
     }
     /* Image part */
