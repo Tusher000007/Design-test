@@ -306,8 +306,8 @@
     gap: 100px;
     margin: 100px;
     padding: 30px 50px;
-    z-index: 10;
-    position: relative;
+    margin-bottom: 0;
+    
     
 }
 .free-consultation-heading{
@@ -341,9 +341,10 @@
 
 .woods-law-firm{
     background-color: rgb(231, 235, 244);
-    padding-top: 200px;
-    position: relative;
-    top:-240px;
+    padding-top: 100px;
+    
+    
+    
     
     
     
@@ -362,7 +363,7 @@
 }
 .question-answer{
     display: flex;
-    margin: 50px 100px;
+    margin: 50px  100px;
     gap: 90px;
 }
 .questions{
@@ -381,11 +382,305 @@
     margin-bottom: 180px;
 }
 
-  
+/* Review styles */
+.review{
+    background-color: rgb(1, 38, 101);
+    
+}
+.left-div{
+    max-width: 45%;
+    padding: 30px;
+}
+.left-div h3{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.red-color{
+    color: rgb(186, 17, 59);
+}
+.left-div p{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+
+}
+.core-clients-logo-border{
+    border: 0.8px solid rgb(24, 72, 155);
+}
+.core-clients-flex{
+    display: flex;
+    gap: 10px;
+}
+.core-clients-logo div{
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 150px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* Our blog section styles*/
+.blog{
+    margin: 0px 70px;
+}
+.our-blog h2{
+    font-size: 45px;
+}
+.our-blog{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.btn-view-all{
+    background-color: rgb(184, 20, 61);
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    padding: 20px 30px;
+
+}
+.btn-view-all a{
+    text-decoration: none;
+    color: white;
+}
+/* Image part */
+.our-blog-images{
+    display: flex;
+    gap: 15px;
+    
+}
+
+
+.our-blog-image-one{
+    background-image: url("Images/Rectangle\ 25479.png");
+    color: white;
+    
+}
+
+.our-blog-images h3{
+    font-size: 30px;
+}
+
+
+   
+
+.our-blog-image-one, .our-blog-image-two, .our-blog-image-three{
+    width: 33%;
+    padding: 15px;
+}
+.our-blog-image-two img, .our-blog-image-three img{
+    width: 100%;
+    
+}
+.our-blog-image-date{
+    font-size:18px;
+    font-weight: 600;
+}
+    
+/* Google Map styles */
+.google-map-main{
+    position: relative;
+}
+.google-map{
+    margin-top: 50px;
+    /* position: relative; */
+    
+}
+.google-map-logo{
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 4px 4px 0px rgba(48, 48, 48, 0.25);
+    border-radius: 100%;
+    background-color: white;
+    padding: 30px;
+}
+.google-map-logo-container{
+    position: absolute;
+    top: 188px;
+    left: 550px;
+}  
+.google-map-image{
+    max-width: 100%;
+    
+}  
+    
+/* Cards style */
+.contact-cards{
+    display: flex;
+    margin: 0px 50px;
+    /* position: absolute;
+    top: 6700px; */
 
     
-    
-    
-    
-    
 
+}
+.card-1{
+    background: rgb(255, 232, 238);
+    border-top: 3.6px solid rgb(188, 20, 62);
+}
+.contact-cards div{
+    padding: 20px;
+}
+.contact-cards h3{
+    font-size: 30px;
+}
+.contact-cards h6{
+    font-size: 15px;
+    font-weight: 550;
+}
+.contact-cards p{
+    color: rgb(26, 26, 26);
+    
+}
+.contact-cards h5{
+    color: rgb(186, 17, 59);
+    font-size: 20px;
+    margin-top: 0;
+}
+.card-3-btn{
+    margin-top: 0;
+}
+.card-3-address{
+    margin-bottom: 0;
+}
+.card-1-btn {
+    margin-top: 12px;
+}
+.card-free-consultation{
+    margin-bottom: 0;
+}
+.contact-cards a{
+    text-decoration: none;
+    color: rgb(186, 17, 59);
+    font-weight:600 ;
+}
+.contact-cards button{
+    padding: 10px 20px;
+    border-radius:10px;
+    
+   
+}
+.card-1 button{
+    background-color:rgb(255, 232, 238) ;
+    border: 0.91px solid rgb(235, 71, 112);
+    
+}
+.btn-3{
+    border: 0.91px solid rgba(0, 0, 0, 0.16);
+    background-color: white;
+}
+.card-2, .card-3{
+    box-shadow: 0px 1.69px 2.88px 0px rgba(0, 0, 0, 0),0px 7.45px 5.96px 0px rgba(0, 0, 0, 0.01),0px 18.28px 11.88px 0px rgba(0, 0, 0, 0.01),0px 35.21px 23.29px 0px rgba(0, 0, 0, 0.01),0px 59.25px 42.83px 0px rgba(0, 0, 0, 0.02),0px 91.41px 73.13px 0px rgba(0, 0, 0, 0.02);
+    
+}
+.card-2, .card-3, .card-4{
+    background-color: white;
+
+}
+
+/* Footer styles */
+.footer-section{
+    
+    
+    
+    display: flex;
+    
+    gap: 60px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+    padding-bottom: 30px;
+    
+    
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+.icons div{
+    border: 1.66px solid rgba(206, 206, 206, 0.46);
+    border-radius: 13.29px;
+    padding: 10px 15px;
+    background: rgba(243, 243, 243, 0.07);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-wood-law-firm p{
+    color: white;
+    font-weight: 200;
+    max-width: 340px;
+    margin-bottom: 30px;
+}
+.quick-links-row-one h5{
+    color: white;
+    font-size: 18px;
+
+}
+.quick-links-row-one a, .quick-links-row-two a{
+    color: white;
+    text-decoration: none;
+}
+.media{
+    margin-top: 85px;
+    margin-bottom: 25px;
+}
+.quick-links-row-one p{
+    margin-bottom: 23px;
+}
+.tesimonials{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.join-newsletter{
+    background: rgba(242, 242, 242, 0.2);
+    padding: 30px;
+    color: white;
+    border: 2px dashed rgba(242, 242, 242, 0.4);
+}
+.join-newsletter h5{
+    
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 0;
+}
+.input-email{
+    padding: 10px;
+    width: 90%;
+}
+.join-newsletter button{
+    
+    background-color: rgb(186, 17, 59);
+    padding: 20px 30px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+.join-newsletter a{
+    color: white;
+    text-decoration: none;
+
+    
+}
+.join-newsletter p{
+    font-size: 17px;
+}
+.footer{
+    background: rgb(1, 37, 100);
+    
+    
+    padding: 300px 30px 50px 50px;
+
+}
+.footer-anchor, .footer-anchor a{
+    color: white;
+}
+.back-top{
+    color: rgb(186, 17, 59);
+}
+.footer-done{
+    display: flex;
+    justify-content: space-between;
+}
