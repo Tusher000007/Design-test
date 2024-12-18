@@ -672,3 +672,226 @@
     justify-content: space-between;
 }
 
+
+/* Responsive */
+
+@media (max-width: 576px) {
+    
+    /* Header styles */
+    .header {
+        display: block;
+    }
+    .logo{
+        margin-bottom: 45px;
+    }
+    .nav-anchor{
+        font-size: 15px;
+        
+    }
+    .dropdown {
+        margin-right: 25px;
+    }
+    .call{
+        margin: 20px 40px;
+    }
+    
+    /* Main  */
+    /* You have rights we protect them part */
+    .your-rights {
+        display: block;
+    }
+    .social-text {
+        writing-mode: horizontal-tb;
+        transform: rotate(0deg);
+        margin-bottom: 25px;
+        margin-left: 130px;
+    }
+    .social-icons{
+        display: flex;
+        gap: 30px;
+        margin-top: 25px;
+        margin-left: 5px;
+    }
+    .social-border {
+        border-radius: 5px;
+        padding:20px 20px;
+    }
+    .have-rights {
+        font-size: 40px;
+        font-weight: 600;
+        margin: 20px 50px;
+    }
+    .colsultation{
+        
+        padding: 40px;
+        width: 300px;
+        
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .man-pic img{
+        max-width: 500px;
+    }
+    .flag img{
+        visibility: hidden;
+    
+    }
+    .seven-logos{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    .image-div{
+        width: 200px;
+        height: 100px;
+        
+    }
+    /*  <!-- SOUTH CAROLINA CRIMINAL DEFENsE  & Personal Injury LAWYER section styles --> */
+    .criminal-defense-details{
+        
+        padding: 40px 20px;
+        display: block;
+        
+    }
+    .south-carolina-heading{
+        font-size: 30px;
+        
+    }
+    .blue-text{
+        font-size: 17px;
+        
+    }
+    .tik-mark{
+        visibility: hidden;
+    }
+    /* <!-- Criminal Defense practice areas Styles--> */
+    .practice-area{
+        margin: 50px 40px;
+        display: block;
+        
+    }
+    .all-images{
+        display: block;
+        
+    }
+    /* Get a FREE Consultation Now  */
+    .free-consultation-m{
+        display: block;
+        margin: 0px;
+        padding: 10px 20px;
+        
+        
+    }
+    .free-consultation-heading{
+        
+        font-size: 40px;
+        
+    }
+    /* Why choose the woods law firm */
+    .woods-law-firm{
+        background-color: rgb(231, 235, 244);
+        padding-top: 20px;
+    }
+    .why-choose{
+        margin: 10px 20px;
+    }
+    .question-answer{
+        display: flex;
+        margin: 10px  20px;
+        gap: 20px;
+    }
+    .questions{
+       
+        font-size: 20px;
+    }
+    .second-question{
+        margin-top: 275px;
+        margin-bottom: 370px;
+    }
+    /* Review styles */
+    .review{
+        display: block;
+    }
+    .left-div{
+        max-width: 100%;
+        padding: 30px;
+    }
+    .left-div h3{
+        font-size: 30px;
+        
+        
+    }
+    .core-clients-flex{
+        display: grid;
+        grid-template-columns: repeat(2,3fr);
+
+    }
+    .core-clients-logo-third-logo{
+        visibility: hidden;
+    }
+    .slider-container {
+        
+        margin-top: 0px;
+    }
+    /*  Our blog section styles */
+    .blog{
+        margin: 0px 15px;
+    }
+    .our-blog h2{
+        font-size: 25px;
+    }
+    .btn-view-all{
+        
+        font-size: 15px;
+        
+        padding: 5px 10px;
+    }
+    /* Image part */
+    .our-blog-images{
+        display: block;
+        
+    }
+    .our-blog-image-one, .our-blog-image-two, .our-blog-image-three{
+        width: 100%;
+        padding: 10px;
+    }
+    .our-blog-images h3{
+        font-size: 20px;
+    }
+
+    /* Google Map styles */
+    .google-map-logo-container{
+        visibility: hidden;
+    }
+    /* Cards style */
+    .contact-cards{
+        
+        position: static;
+        
+    }
+    .contact-cards{
+        display: block;
+        
+    }
+    .card-1, .card-2, .card-3{
+        margin-bottom: 20px;
+    }
+    /* Footer styles */
+    .footer-section{
+        display: block;
+        padding-left: 40px ;
+        
+    }
+    .footer{
+   
+        padding: 50px;
+    }
+    .footer-done{
+        display: block
+    }
+
+
+
+
+}
+  
