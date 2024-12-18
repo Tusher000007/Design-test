@@ -11,7 +11,6 @@
       align-items: center;
       padding: 0px 80px;
     }
-
     .logo {
         padding: 0px 30px;
         border-left: 1px solid rgb(224, 201, 201);
@@ -105,10 +104,9 @@
     
  }
 
- .social-text {
+.social-text {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-    
     letter-spacing: 10px;
     margin-bottom: 300px;
 }
@@ -119,7 +117,6 @@
     border: 1px solid rgba(184, 20, 61, 0.15);
     border-radius: 8px;
     padding:0px 3px;
-    
 }
 
 .south-corolina {
@@ -127,7 +124,6 @@
     font-size: 25px;
     font-weight: 550;
     margin-bottom: 0;
-
 }
 .have-rights {
     color: #000000;
@@ -135,7 +131,6 @@
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 0;
-    
 }
 
 .protect{
@@ -153,8 +148,6 @@
     color: #FFFFFF;
     font-size: 15px;
     font-weight: 400;
-    
-
 }
 
 .number{
@@ -212,7 +205,6 @@
     display: flex;
     gap: 100px;
     margin-top: 40px;
-    
 }
 .south-carolina-heading{
     font-size: 40px;
@@ -240,19 +232,16 @@
     left: 815px;
     opacity: 0.3;
 }
-
 /* <!-- Criminal Defense practice areas Styles--> */
 .practice-area{
     margin: 50px 80px;
     display: flex;
     gap: 170px;
-
 }
 .defense-headline{
     font-size: 40px;
     color: rgb(188, 20, 62);
     margin-top: 0;
-
 }
 .practice-area span{
     color: rgb(0, 0, 0);
@@ -261,7 +250,6 @@
     font-size:15px ;
     max-width: 600px;
     margin-top: 40px;
-
 }
 
 /* Crimes */
@@ -274,13 +262,11 @@
     position: relative;
     overflow: hidden;
   border-radius: 10px;
-  
 }
-.crime-card img {
-     /* Fixed height for uniformity */
-     /* Maintain image aspect ratio */
-    
-  }
+.third-div img {
+    width: 100%;
+    height: 860px;
+}
 
   .crime-overlay {
     position: absolute;
@@ -289,7 +275,6 @@
     width: 100%;
     background: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
     color: #fff;
-    
     padding: 40px;
     font-size: 1.2rem;
     font-weight: bold;
@@ -307,14 +292,11 @@
     margin: 100px;
     padding: 30px 50px;
     margin-bottom: 0;
-    
-    
 }
 .free-consultation-heading{
     color: rgb(255, 255, 255);
     font-size: 50px;
     margin-bottom: 0;
-
 }
 .red-color-text{
     color: rgb(184, 20, 61);
@@ -323,36 +305,25 @@
     font-size: 20px;
     margin-top: 0px;
     color: white;
-
 }
   
 .free-consultation-number{
     color: rgb(184, 20, 61);
     font-size: 50px;
     margin-top: 0;
-
-
 }
 .free-consultation-para-number{
     padding-top: 80px;
-
 }
 /* Why choose the woods law firm */
 
 .woods-law-firm{
     background-color: rgb(231, 235, 244);
     padding-top: 100px;
-    
-    
-    
-    
-    
-    
 }
 
 .why-choose{
     margin: 50px 185px;
-
 }
 .why-choose-heading{
     font-size: 40px;
@@ -369,7 +340,6 @@
 .questions{
     color: rgb(26, 26, 26);
     font-size: 25px;
-    
 }
 .answers{
     font-size: 15px;
@@ -385,7 +355,7 @@
 /* Review styles */
 .review{
     background-color: rgb(1, 38, 101);
-    
+    display: flex;
 }
 .left-div{
     max-width: 45%;
@@ -402,7 +372,6 @@
 .left-div p{
     color: rgb(255, 255, 255);
     font-size: 15px;
-
 }
 .core-clients-logo-border{
     border: 0.8px solid rgb(24, 72, 155);
@@ -419,8 +388,58 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+/* Review Slider */
+.slider-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 2rem auto;
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+    margin-top: 100px;
+}
+
+.slider-wrapper {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+}
+
+.review-card {
+    background: rgb(1, 38, 101);
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    min-height: 120px;
+}
+
+  .review-card h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  .review-card p {
+    margin: 0 0 1rem;
+    font-size: 0.9rem;
+    color: #d6d6d6;
+    line-height: 1.4;
+  }
+
+  .review-author {
+    font-weight: bold;
+  }
+
+  .review-stars {
+    color: gold;
+    font-size: 1rem;
+  }
+  .name-and-review{
+    display: flex;
+    justify-content: space-between;
+  }
 /* Our blog section styles*/
 .blog{
     margin: 0px 70px;
@@ -440,7 +459,6 @@
     font-weight: 600;
     border: none;
     padding: 20px 30px;
-
 }
 .btn-view-all a{
     text-decoration: none;
@@ -450,35 +468,29 @@
 .our-blog-images{
     display: flex;
     gap: 15px;
-    
 }
 
 
 .our-blog-image-one{
     background-image: url("Images/Rectangle\ 25479.png");
     color: white;
-    
 }
 
 .our-blog-images h3{
     font-size: 30px;
 }
-
-
-   
-
 .our-blog-image-one, .our-blog-image-two, .our-blog-image-three{
     width: 33%;
     padding: 15px;
 }
 .our-blog-image-two img, .our-blog-image-three img{
     width: 100%;
-    
 }
 .our-blog-image-date{
     font-size:18px;
     font-weight: 600;
 }
+
     
 /* Google Map styles */
 .google-map-main{
@@ -486,8 +498,7 @@
 }
 .google-map{
     margin-top: 50px;
-    /* position: relative; */
-    
+    position: relative;
 }
 .google-map-logo{
     border: 1px solid rgba(0, 0, 0, 0.24);
@@ -503,18 +514,14 @@
 }  
 .google-map-image{
     max-width: 100%;
-    
 }  
     
 /* Cards style */
 .contact-cards{
     display: flex;
     margin: 0px 50px;
-    /* position: absolute;
-    top: 6700px; */
-
-    
-
+    position: absolute;
+    top: 6700px;
 }
 .card-1{
     background: rgb(255, 232, 238);
@@ -532,7 +539,6 @@
 }
 .contact-cards p{
     color: rgb(26, 26, 26);
-    
 }
 .contact-cards h5{
     color: rgb(186, 17, 59);
@@ -559,13 +565,10 @@
 .contact-cards button{
     padding: 10px 20px;
     border-radius:10px;
-    
-   
 }
 .card-1 button{
     background-color:rgb(255, 232, 238) ;
     border: 0.91px solid rgb(235, 71, 112);
-    
 }
 .btn-3{
     border: 0.91px solid rgba(0, 0, 0, 0.16);
@@ -573,25 +576,17 @@
 }
 .card-2, .card-3{
     box-shadow: 0px 1.69px 2.88px 0px rgba(0, 0, 0, 0),0px 7.45px 5.96px 0px rgba(0, 0, 0, 0.01),0px 18.28px 11.88px 0px rgba(0, 0, 0, 0.01),0px 35.21px 23.29px 0px rgba(0, 0, 0, 0.01),0px 59.25px 42.83px 0px rgba(0, 0, 0, 0.02),0px 91.41px 73.13px 0px rgba(0, 0, 0, 0.02);
-    
 }
 .card-2, .card-3, .card-4{
     background-color: white;
-
 }
 
 /* Footer styles */
 .footer-section{
-    
-    
-    
     display: flex;
-    
     gap: 60px;
     border-bottom: 1px solid rgb(255, 255, 255, 0.2);
     padding-bottom: 30px;
-    
-    
 }
 .icons{
     display: flex;
@@ -602,22 +597,19 @@
     border-radius: 13.29px;
     padding: 10px 15px;
     background: rgba(243, 243, 243, 0.07);
-    
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .footer-wood-law-firm p{
     color: white;
     font-weight: 200;
-    max-width: 340px;
+    max-width: 300px;
     margin-bottom: 30px;
 }
 .quick-links-row-one h5{
     color: white;
     font-size: 18px;
-
 }
 .quick-links-row-one a, .quick-links-row-two a{
     color: white;
@@ -653,7 +645,7 @@
 .join-newsletter button{
     
     background-color: rgb(186, 17, 59);
-    padding: 20px 30px;
+    padding: 16px 22px;
     border: none;
     font-weight: 600;
     font-size: 18px;
@@ -661,18 +653,13 @@
 .join-newsletter a{
     color: white;
     text-decoration: none;
-
-    
 }
 .join-newsletter p{
     font-size: 17px;
 }
 .footer{
     background: rgb(1, 37, 100);
-    
-    
     padding: 300px 30px 50px 50px;
-
 }
 .footer-anchor, .footer-anchor a{
     color: white;
@@ -684,3 +671,4 @@
     display: flex;
     justify-content: space-between;
 }
+

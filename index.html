@@ -164,7 +164,7 @@
         </div>
       </div>
       <!-- Third div -->
-      <div>
+      <div class="third-div">
         <div class="crime-card">
           <img  src="Images/Rectangle 25480.png" alt="">
           <p class="crime-overlay ">White Collar Crimes</p>
@@ -227,8 +227,70 @@
             </div>
           </div>
         </div>
-        <!-- Review card -->
-        <div></div>
+        <!-- Review slider -->
+        <div class="slider-container">
+          <div class="slider-wrapper" id="slider">
+            <!-- Review Card 1 -->
+            <div class="review-card">
+              <h3>Highly Recommend</h3>
+              <p>
+                I found my experience with the Fakhouri firm to be very professional
+                and courteous. Robert, the owner, was very responsive and guided me
+                through all my needs while truly showing empathy.
+              </p>
+              <div class="name-and-review">
+                <div class="review-author">&mdash; Alexios</div>
+                <div class="review-stars">★★★★★</div>
+
+              </div>
+            </div>
+      
+            <!-- Review Card 2 -->
+            <div class="review-card">
+              <h3>Highly Recommend</h3>
+              <p>
+                I found my experience with the Fakhouri firm to be very professional
+                and courteous. Robert, the owner, was very responsive and guided me
+                through all my needs while truly showing empathy.
+              </p>
+              <div class="name-and-review">
+                <div class="review-author">&mdash; Alexios</div>
+                <div class="review-stars">★★★★★</div>
+
+              </div>
+            </div>
+      
+            <!-- Review Card 3 -->
+            <div class="review-card">
+              <h3>Highly Recommend</h3>
+              <p>
+                I found my experience with the Fakhouri firm to be very professional
+                and courteous. Robert, the owner, was very responsive and guided me
+                through all my needs while truly showing empathy.
+              </p>
+              <div class="name-and-review">
+                <div class="review-author">&mdash; Alexios</div>
+                <div class="review-stars">★★★★★</div>
+
+              </div>
+            </div>
+      
+            <!-- Duplicate Cards for Infinite Scroll -->
+            <div class="review-card">
+              <h3>Highly Recommend</h3>
+              <p>
+                I found my experience with the Fakhouri firm to be very professional
+                and courteous. Robert, the owner, was very responsive and guided me
+                through all my needs while truly showing empathy.
+              </p>
+              <div class="name-and-review">
+                <div class="review-author">&mdash; Alexios</div>
+                <div class="review-stars">★★★★★</div>
+
+              </div>
+            </div>
+          </div>
+        </div>
 
       </section>
       <!-- Our blog section -->
@@ -241,9 +303,9 @@
         <div class="our-blog-images">
           <div class="our-blog-image-one">
             <h3>How Do Insurance Companies Calculate Lo...?</h3>
-            <p>After a car accident, the repercussions go beyond immediate physical and emotional effects. The financial impact…</p>  
+            <p>After a car accident, the repercussions go beyond immediate physical and emotional effects. The financial impact, especially on lost wages, can be significant for many victims. In North…</p>  
             <br>
-            <p class="our-blog-image-date">24 Dec 2023 - 7 min read</p>
+            <p class="our-blog-image-date  ">24 Dec 2023 - 7 min read</p>
             
           </div>
           <div class="our-blog-image-two">
@@ -378,5 +440,32 @@
     
     
    </footer>
+   <!-- JS  -->
+   
+  <script>
+    const slider = document.getElementById("slider");
+    let scrollAmount = 0;
+    const slideHeight = slider.children[0].offsetHeight + 16; // height + margin
+
+    function autoScroll() {
+      scrollAmount += slideHeight;
+
+      // Reset to top when reaching the end
+      if (scrollAmount >= slider.scrollHeight / 2) {
+        scrollAmount = 0;
+        slider.style.transition = "none"; // Disable transition for reset
+        slider.style.transform = `translateY(0)`;
+        setTimeout(() => {
+          slider.style.transition = "transform 1s ease-in-out";
+        }, 20); // Small delay to restart transition
+      } else {
+        slider.style.transform = `translateY(-${scrollAmount}px)`;
+      }
+    }
+
+    // Auto-scroll every 3 seconds
+    setInterval(autoScroll, 3000);
+  </script>
+
 </body>
 </html>
